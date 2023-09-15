@@ -1,0 +1,11 @@
+{
+    "/api/*": {
+        "target": "https://blahaj.transgirl.dev/",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug",
+        "pathRewrite": {
+            "^/api": ""
+        }
+    }
+}
